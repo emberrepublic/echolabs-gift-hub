@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gift Hub</title>
+  <style>
+    :root{--bg:#0c0d10;--panel:#171922;--ink:#fff7ed;--muted:#b9ad9c;--fire:#ff7a1a;--gold:#f6c453;--line:#2b2f3a}
+    *{box-sizing:border-box} body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif;background:radial-gradient(circle at 20% 0%,#43200d 0,#0c0d10 32rem),var(--bg);color:var(--ink);min-height:100vh}
+    header,main{width:min(1080px,92vw);margin:auto} header{padding:48px 0 24px;display:flex;justify-content:space-between;gap:24px;align-items:flex-end;border-bottom:1px solid var(--line)}
+    .eyebrow{color:var(--gold);text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:700} h1{font-size:clamp(42px,7vw,88px);line-height:.9;margin:10px 0 0;letter-spacing:-.06em}.pill{border:1px solid #ffffff2b;border-radius:999px;padding:10px 14px;color:var(--muted);white-space:nowrap}
+    main{padding:30px 0 56px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:26px}.card{background:linear-gradient(180deg,#1d202b,#141720);border:1px solid var(--line);border-radius:22px;padding:22px;min-height:160px;box-shadow:0 18px 60px #0006}.card h2{margin:0 0 10px;font-size:22px}.card p{margin:0;color:var(--muted);line-height:1.55}.button{display:inline-block;margin-top:18px;background:linear-gradient(135deg,var(--fire),var(--gold));color:#17100a;text-decoration:none;font-weight:800;border-radius:14px;padding:12px 16px}
+    footer{color:#82786d;font-size:13px;margin-top:30px}.status{display:flex;gap:10px;align-items:center}.dot{width:10px;height:10px;border-radius:50%;background:#22c55e;box-shadow:0 0 18px #22c55e}
+  </style>
+</head>
+<body>
+  <header>
+    <div>
+      <div class="eyebrow">Permanent HTML endpoint</div>
+      <h1>Gift Hub</h1>
+    </div>
+    <div class="pill status"><span class="dot"></span> live via Echo</div>
+  </header>
+  <main>
+    <p style="max-width:720px;color:var(--muted);font-size:18px;line-height:1.65">A lightweight starter app Rob can turn into a real gift tracker, landing page, product card, or dashboard. It is plain HTML/CSS, so Echo can keep editing it quickly without a build step.</p>
+    <section class="grid">
+      <article class="card"><h2>Ideas</h2><p>Capture gift ideas, links, budgets, dates, and recipient notes in one clean view.</p><a class="button" href="#">Add next section</a></article>
+      <article class="card"><h2>Occasions</h2><p>Birthdays, Christmas, anniversaries, travel gifts, and last-minute reminders.</p></article>
+      <article class="card"><h2>Endpoint</h2><p>This app is served from <code>/__openclaw__/canvas/gift-hub/</code> on the OpenClaw Gateway.</p></article>
+    </section>
+    <footer>Created by Echo · static HTML · no external hosting configured yet</footer>
+  </main>
+</body>
+</html>
