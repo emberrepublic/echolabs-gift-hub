@@ -7,7 +7,7 @@
   <style>
     :root{--bg:#050816;--panel:#0d1229;--panel2:#121936;--ink:#f8fbff;--muted:#a9b8d4;--line:#263153;--cyan:#00e5ff;--pink:#ff4fd8;--green:#65f4b8;--amber:#ffd166;--bad:#ff6b8a;--radius:24px}
     *{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:radial-gradient(circle at 12% 0%,#123cff55,transparent 28rem),radial-gradient(circle at 90% 8%,#ff4fd844,transparent 28rem),var(--bg);color:var(--ink)}
-    .shell{width:min(1180px,92vw);margin:0 auto;padding:28px 0 56px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:28px}.brand{font-weight:950;letter-spacing:-.04em}.back{color:var(--muted);text-decoration:none;border:1px solid #ffffff22;border-radius:999px;padding:10px 13px;background:#ffffff08}.hero,.card{border:1px solid #ffffff18;background:linear-gradient(180deg,#111936e6,#0b1025e6);box-shadow:0 24px 90px #0008;border-radius:calc(var(--radius) + 8px)}.hero{padding:clamp(26px,5vw,52px);overflow:hidden;position:relative}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#00e5ff20,transparent 42%,#ff4fd820);pointer-events:none}.hero>*{position:relative}.eyebrow{color:var(--cyan);text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:900}.hero h1{font-size:clamp(38px,7vw,82px);line-height:.9;margin:12px 0 14px;letter-spacing:-.075em}.grad{background:linear-gradient(105deg,var(--cyan),#fff 45%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.lede{color:var(--muted);font-size:18px;line-height:1.6;max-width:860px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.metric{border:1px solid #ffffff18;border-radius:18px;background:#050817aa;padding:14px}.metric b{display:block;font-size:24px}.metric span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.12em}.section{margin-top:24px}.section h2{font-size:32px;letter-spacing:-.05em;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.card{padding:20px}.span-4{grid-column:span 4}.span-6{grid-column:span 6}.span-12{grid-column:1/-1}.card h3{margin:0 0 8px;font-size:22px}.card p,.card li{color:var(--muted);line-height:1.55}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:6px 9px;font-weight:900;font-size:12px}.green{background:#65f4b81a;color:var(--green);border:1px solid #65f4b855}.amber{background:#ffd1661a;color:var(--amber);border:1px solid #ffd16655}.bad{background:#ff6b8a1a;color:var(--bad);border:1px solid #ff6b8a55}.tablewrap{overflow:auto;border:1px solid #ffffff14;border-radius:18px}table{width:100%;border-collapse:collapse;min-width:980px;background:#05081799}th,td{padding:12px 13px;text-align:left;border-bottom:1px solid #ffffff10;vertical-align:top}th{color:var(--cyan);font-size:12px;text-transform:uppercase;letter-spacing:.12em;background:#ffffff08}td{color:var(--muted)}td strong{color:var(--ink)}.note{color:var(--muted);font-size:14px}.route{counter-reset:step;display:grid;gap:10px}.route li{list-style:none;border:1px solid #ffffff14;border-radius:16px;background:#ffffff08;padding:13px}.route li:before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;width:26px;height:26px;border-radius:999px;margin-right:8px;background:linear-gradient(135deg,var(--cyan),var(--pink));color:#07111f;font-weight:950}.footer{color:#7180a3;font-size:13px;margin-top:28px}@media(max-width:820px){.metrics{grid-template-columns:1fr 1fr}.span-4,.span-6{grid-column:1/-1}.top{align-items:flex-start}.hero h1{font-size:44px}}@media(max-width:520px){.metrics{grid-template-columns:1fr}.shell{width:min(100% - 24px,1180px);padding-top:18px}}
+    .shell{width:min(1180px,92vw);margin:0 auto;padding:28px 0 56px}.top{display:flex;justify-content:space-between;gap:16px;align-items:center;margin-bottom:28px}.brand{font-weight:950;letter-spacing:-.04em}.back{color:var(--muted);text-decoration:none;border:1px solid #ffffff22;border-radius:999px;padding:10px 13px;background:#ffffff08}.hero,.card{border:1px solid #ffffff18;background:linear-gradient(180deg,#111936e6,#0b1025e6);box-shadow:0 24px 90px #0008;border-radius:calc(var(--radius) + 8px)}.hero{padding:clamp(26px,5vw,52px);overflow:hidden;position:relative}.hero:before{content:"";position:absolute;inset:0;background:linear-gradient(135deg,#00e5ff20,transparent 42%,#ff4fd820);pointer-events:none}.hero>*{position:relative}.eyebrow{color:var(--cyan);text-transform:uppercase;letter-spacing:.18em;font-size:12px;font-weight:900}.hero h1{font-size:clamp(38px,7vw,82px);line-height:.9;margin:12px 0 14px;letter-spacing:-.075em}.grad{background:linear-gradient(105deg,var(--cyan),#fff 45%,var(--pink));-webkit-background-clip:text;background-clip:text;color:transparent}.lede{color:var(--muted);font-size:18px;line-height:1.6;max-width:860px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:24px}.metric{border:1px solid #ffffff18;border-radius:18px;background:#050817aa;padding:14px}.metric b{display:block;font-size:24px}.metric span{color:var(--muted);font-size:12px;text-transform:uppercase;letter-spacing:.12em}.tabs{display:flex;gap:10px;flex-wrap:wrap;margin:18px 0 6px}.tab{border:1px solid #ffffff22;border-radius:999px;padding:11px 14px;background:#ffffff08;color:var(--muted);font:inherit;font-weight:900;cursor:pointer}.tab.active{color:#07111f;background:linear-gradient(135deg,var(--cyan),var(--pink));border-color:transparent}.tab-panel{display:none}.tab-panel.active{display:block}.section{margin-top:24px}.section h2{font-size:32px;letter-spacing:-.05em;margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:14px}.card{padding:20px}.span-4{grid-column:span 4}.span-6{grid-column:span 6}.span-12{grid-column:1/-1}.card h3{margin:0 0 8px;font-size:22px}.card p,.card li{color:var(--muted);line-height:1.55}.pill{display:inline-flex;align-items:center;border-radius:999px;padding:6px 9px;font-weight:900;font-size:12px}.green{background:#65f4b81a;color:var(--green);border:1px solid #65f4b855}.amber{background:#ffd1661a;color:var(--amber);border:1px solid #ffd16655}.bad{background:#ff6b8a1a;color:var(--bad);border:1px solid #ff6b8a55}.tablewrap{overflow:auto;border:1px solid #ffffff14;border-radius:18px}table{width:100%;border-collapse:collapse;min-width:980px;background:#05081799}th,td{padding:12px 13px;text-align:left;border-bottom:1px solid #ffffff10;vertical-align:top}th{color:var(--cyan);font-size:12px;text-transform:uppercase;letter-spacing:.12em;background:#ffffff08}td{color:var(--muted)}td strong{color:var(--ink)}.note{color:var(--muted);font-size:14px}.route{counter-reset:step;display:grid;gap:10px}.route li{list-style:none;border:1px solid #ffffff14;border-radius:16px;background:#ffffff08;padding:13px}.route li:before{counter-increment:step;content:counter(step);display:inline-grid;place-items:center;width:26px;height:26px;border-radius:999px;margin-right:8px;background:linear-gradient(135deg,var(--cyan),var(--pink));color:#07111f;font-weight:950}.footer{color:#7180a3;font-size:13px;margin-top:28px}@media(max-width:820px){.metrics{grid-template-columns:1fr 1fr}.span-4,.span-6{grid-column:1/-1}.top{align-items:flex-start}.hero h1{font-size:44px}}@media(max-width:520px){.metrics{grid-template-columns:1fr}.shell{width:min(100% - 24px,1180px);padding-top:18px}}
   </style>
 </head>
 <body>
@@ -24,6 +24,13 @@
         <div class="metric"><b>5 hrs</b><span>park window</span></div>
       </div>
     </section>
+
+    <div class="tabs" role="tablist" aria-label="Holiday planner tabs">
+      <button class="tab active" type="button" role="tab" aria-selected="true" aria-controls="rides-panel" data-tab="rides-panel">USS rides</button>
+      <button class="tab" type="button" role="tab" aria-selected="false" aria-controls="wedding-panel" data-tab="wedding-panel">Wedding requirements</button>
+    </div>
+
+    <section class="tab-panel active" id="rides-panel" role="tabpanel">
 
     <section class="section grid">
       <article class="card span-4"><h3>Decision rule</h3><p><span class="pill green">Green</span> Ride is fine on height and family-appropriate for most kids.</p><p><span class="pill amber">Amber</span> Height is fine, but intensity/scare/motion may be the deciding factor.</p></article>
@@ -63,7 +70,49 @@
       <article class="card span-6"><h2>Skip / conditional</h2><ul><li><strong>Likely skip if time is tight:</strong> Magic Potion Spin, Dino‑Soarin’, Treasure Hunters, Sesame Street — good, but lower value for a 135–140cm child unless queues are tiny.</li><li><strong>Conditional on courage:</strong> Battlestar Galactica and Revenge of the Mummy.</li><li><strong>Conditional on motion sensitivity:</strong> Minion Mayhem, TRANSFORMERS, Accelerator.</li><li><strong>Conditional on wet clothes:</strong> Jurassic Park Rapids Adventure.</li></ul></article>
     </section>
 
-    <div class="footer">EchoLabs holiday note · keep live wait times and temporary closures checked on the day.</div>
+    </section>
+
+    <section class="tab-panel" id="wedding-panel" role="tabpanel">
+      <section class="section grid">
+        <article class="card span-4"><h3>Rob</h3><p><span class="pill amber">To confirm</span> Wedding outfit and event requirements.</p><ul><li>Wedding outfit: suit/shirt/shoes/belt/socks.</li><li>Travel-day outfit separate from wedding outfit.</li><li>Grooming kit, fragrance and spare undershirt.</li><li>Confirm any rehearsal, lunch, quiz night or family briefing attendance requirements.</li></ul></article>
+        <article class="card span-4"><h3>Annie</h3><p><span class="pill amber">To confirm</span> Outfit, accessories and beauty/logistics requirements.</p><ul><li>Wedding outfit/dress, shoes and accessories.</li><li>Hair/makeup timing, products and touch-up kit.</li><li>Travel steamer or crease-management plan if needed.</li><li>Confirm any bridal/family-party requirements.</li></ul></article>
+        <article class="card span-4"><h3>Armani</h3><p><span class="pill amber">To confirm</span> Child outfit, comfort and backup requirements.</p><ul><li>Dress/outfit, shoes, socks/tights and hair accessories.</li><li>Backup outfit or spill kit for the day.</li><li>Comfort items for long waits, photos or late finish.</li><li>Snack/water plan around ceremony and reception timing.</li></ul></article>
+      </section>
+
+      <section class="section card span-12">
+        <h2>Wedding checklist</h2>
+        <div class="tablewrap">
+          <table>
+            <thead><tr><th>Category</th><th>Rob</th><th>Annie</th><th>Armani</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td><strong>Main outfit</strong></td><td>Suit / shirt / shoes</td><td>Dress / outfit / shoes</td><td>Dress / outfit / shoes</td><td><span class="pill amber">Need details</span></td></tr>
+              <tr><td><strong>Accessories</strong></td><td>Belt, socks, watch, cufflinks if needed</td><td>Jewellery, bag, wrap, hair accessories</td><td>Hair accessories, cardigan/wrap if needed</td><td><span class="pill amber">Need details</span></td></tr>
+              <tr><td><strong>Prep / grooming</strong></td><td>Haircut/shave/grooming kit</td><td>Hair/makeup timing and touch-up kit</td><td>Hair plan, wipes, backup basics</td><td><span class="pill amber">Need details</span></td></tr>
+              <tr><td><strong>Event schedule</strong></td><td>Wedding + related family events</td><td>Wedding + related family events</td><td>Age-appropriate attendance/rest plan</td><td><span class="pill amber">Need details</span></td></tr>
+              <tr><td><strong>Day bag</strong></td><td>Phone, wallet, hotel key, transport notes</td><td>Touch-up kit, phone, essentials</td><td>Water, snack, entertainment, comfort item</td><td><span class="pill amber">Need details</span></td></tr>
+              <tr><td><strong>Risks</strong></td><td>Creasing, wrong shoes, heat/humidity</td><td>Creasing, footwear comfort, timing</td><td>Spills, tiredness, uncomfortable shoes</td><td><span class="pill amber">Plan needed</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="note">Privacy-safe version: no venue, date, email details or private schedule shown on this public EchoLabs page. Add specifics only if you want them visible here.</p>
+      </section>
+    </section>
+
+    <div class="footer">EchoLabs holiday note · keep live wait times, temporary closures and wedding schedule details checked on the day.</div>
   </div>
+  <script>
+    document.querySelectorAll('.tab').forEach((button) => {
+      button.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach((tab) => {
+          tab.classList.remove('active');
+          tab.setAttribute('aria-selected', 'false');
+        });
+        document.querySelectorAll('.tab-panel').forEach((panel) => panel.classList.remove('active'));
+        button.classList.add('active');
+        button.setAttribute('aria-selected', 'true');
+        document.getElementById(button.dataset.tab).classList.add('active');
+      });
+    });
+  </script>
 </body>
 </html>
